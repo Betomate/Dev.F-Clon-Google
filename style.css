@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0px;
+    background: #202124;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+a{
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+header a{
+    color: white;
+}
+.linksup{
+    padding: 7.5px ;
+}
+#apps{
+    vertical-align: middle;
+    font-size: 25px;
+    padding: 7.5px;
+}
+#account{
+    color: violet;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+main{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+#logo{
+    width: 272px;
+    margin-top: 40px;
+    padding: 10px;
+}
+#input-search{
+    padding: 30 0px 0px 0px;
+    width: 800px;
+}
+#form-control{ font-size: 16px;
+    color: #e8eaed;
+    font-size: auto;
+    background-color: #303134;
+    border-radius: 4px;
+    border: 1px solid #303134;
+    width: 200px;
+    height: 36px;
+
+}
+
+.btn-search{
+    padding: 30px;
+}
+
+.btn-search :hover{
+    border: #e8eaed;
+}
+
+#search{
+    font-size: 16px;
+    color: #e8eaed;
+    font-size: auto;
+    background-color: #303134;
+    border-radius: 4px;
+    border: 1px solid #303134;
+    width: 200px;
+    height: 36px;
+}
+#search:hover{
+    border:1px solid #bdc1c6;
+}
+
+#lucky{
+    font-size: 16px;
+    color: #e8eaed;
+    font-size: auto;
+    background-color: #303134;
+    border-radius: 4px;
+    border: 1px solid #303134;
+    width: 200px;
+    height: 36px;
+}
+#lucky:hover{
+    border:1px solid #bdc1c6;
+}
+
+#English{
+    color: #8ab4f8;
+}
+
+footer{
+    display: flexbox;
+    color: #bdc1c6;
+    background-color: #191a1b;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.Footer-a{
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+    border-bottom:solid #303134;
+
+}
+.Footer-b{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 10px;
+}
+.Footer-b a{
+    color: #bdc1c6;
+}
+
+.izquierda{
+    margin-left: 20px;
+}
+.izquierda a{
+    padding: 0px 20px 0px 0px;
+}
+
+.derecha a{
+    padding: 0px 20px 0px 0px;
+}
