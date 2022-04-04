@@ -113,6 +113,11 @@ input:focus{
     font-size: 14px;
 }
 
+.button:hover{
+    border:1px solid grey;
+}
+    
+
 .idioma{
     font-size: small;
     color: #bdc1c6;
