@@ -21,110 +21,143 @@ header{
 }
 header a{
     color: white;
+    font-size: small;
 }
 .linksup{
     padding: 7.5px ;
 }
 #apps{
     vertical-align: middle;
-    font-size: 25px;
+    font-size: 24px;
     padding: 7.5px;
 }
 #account{
     color: violet;
     vertical-align: middle;
-    font-size: 40px;
+    font-size: 35px;
 }
 
-main{
+.logo{
     display: flex;
-    justify-content:center;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 92px;
 }
-#logo{
-    width: 272px;
-    margin-top: 40px;
-    padding: 10px;
+.logo img{
+    height: 92px;
 }
-#input-search{
-    padding: 30 0px 0px 0px;
-    width: 800px;
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
-#form-control{ font-size: 16px;
-    color: #e8eaed;
-    font-size: auto;
+
+.container{
+    width: 40%;
+    height: 43px;
+    border-radius: 50px;
+    border: 1px solid grey;
+}
+.container input{
+    background-color: #202124;
+    border: none;
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+    width: 83%;
+    height: 33px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+input {
+    border:0;
+    outline:0;
+}
+
+input:focus{
+    outline:none!important;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#lupa{
+    display: inline;
+    position: relative;
+    left: 4%;
+    top: 12px;
+}
+
+#micro{
+    display: inline;
+    position: relative;
+    left: 93.5%;
+    bottom:42px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    color: white;
     background-color: #303134;
-    border-radius: 4px;
     border: 1px solid #303134;
-    width: 200px;
-    height: 36px;
-
-}
-
-.btn-search{
-    padding: 30px;
-}
-
-.btn-search :hover{
-    border: #e8eaed;
-}
-
-#search{
-    font-size: 16px;
-    color: #e8eaed;
-    font-size: auto;
-    background-color: #303134;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 34px;
     border-radius: 4px;
-    border: 1px solid #303134;
-    width: 200px;
-    height: 36px;
-}
-#search:hover{
-    border:1px solid #bdc1c6;
+    font-size: 14px;
 }
 
-#lucky{
-    font-size: 16px;
-    color: #e8eaed;
-    font-size: auto;
-    background-color: #303134;
-    border-radius: 4px;
-    border: 1px solid #303134;
-    width: 200px;
-    height: 36px;
+.idioma{
+    font-size: small;
+    color: #bdc1c6;
+    display: flex;
+    justify-content:  center;
+    align-items: baseline;
 }
-#lucky:hover{
-    border:1px solid #bdc1c6;
-}
-
-#English{
+.idioma a{
+    margin:5px ;
     color: #8ab4f8;
 }
 
 footer{
-    display: flexbox;
-    color: #bdc1c6;
-    background-color: #191a1b;
-    width: 100%;
-    height: auto;
-    position: absolute;
+    display: block;
+    background-color: #171717;
+    height: 95.4px;
+    position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
-.Footer-a{
+footer a{
+    color: #999da2;
+}
+
+footer p{
     margin: 0px;
-    padding: 0px 0px 0px 30px;
-    border-bottom:solid #303134;
+    color:#9aa0a6;
+}
+
+.Footer-1st{
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom:1px solid #303134;
 
 }
-.Footer-b{
+.Footer-2nd{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 16px;
-    padding: 10px;
+    padding: 15px;
+    font-size: 14px;
 }
-.Footer-b a{
-    color: #bdc1c6;
+.Footer-2nd a{
+    color: #999da2;
 }
 
 .izquierda{
